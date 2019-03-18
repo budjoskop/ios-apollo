@@ -1,0 +1,29 @@
+query ViewController {
+
+        nodes(node_type: "Review") {
+            id
+            title
+            additional_fields {
+                ... on TypeReview {
+                    intro
+                }
+            }
+            author {
+                name
+            }
+          
+            tags {
+                id
+                name
+            }
+            elements(type: "image") {
+                data
+            }
+       
+        }
+    
+}
+
+
+
+
