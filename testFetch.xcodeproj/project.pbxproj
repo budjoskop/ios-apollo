@@ -10,22 +10,21 @@
 		1EBCDE79E3392D0F8AFFFEDF /* Pods_testFetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03E8A65C8B6C957181224CF /* Pods_testFetch.framework */; };
 		244DD6892223381D00873CDC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DD6882223381D00873CDC /* API.swift */; };
 		244DD68B2223383900873CDC /* ViewController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 244DD68A2223383900873CDC /* ViewController.graphql */; };
-		24748DCA22358E8900CB48CB /* AllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24748DC922358E8900CB48CB /* AllTableViewController.swift */; };
 		24748DD02235905C00CB48CB /* IMG_1422.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 24748DCF2235905C00CB48CB /* IMG_1422.PNG */; };
 		24748DD22235927100CB48CB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24748DD12235927100CB48CB /* TableViewCell.swift */; };
 		2479AF9F222335EC009F0BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479AF9E222335EC009F0BDA /* AppDelegate.swift */; };
 		2479AFA4222335EC009F0BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2479AFA2222335EC009F0BDA /* Main.storyboard */; };
 		2479AFA6222335ED009F0BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2479AFA5222335ED009F0BDA /* Assets.xcassets */; };
 		2479AFA9222335ED009F0BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2479AFA7222335ED009F0BDA /* LaunchScreen.storyboard */; };
+		2480CC942242854E0078149B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2480CC932242854E0078149B /* TableViewController.swift */; };
+		2480CC96224296FD0078149B /* viseci.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2480CC95224296FD0078149B /* viseci.jpg */; };
 		24D1D713222350F600B6A75B /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D712222350F600B6A75B /* schema.json */; };
-		24D1D71722242BB900B6A75B /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D71622242BB900B6A75B /* Apollo.swift */; };
 		24E645D6222689EF0057E42F /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E645D5222689EF0057E42F /* JsonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		244DD6882223381D00873CDC /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		244DD68A2223383900873CDC /* ViewController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController.graphql; sourceTree = "<group>"; };
-		24748DC922358E8900CB48CB /* AllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewController.swift; sourceTree = "<group>"; };
 		24748DCF2235905C00CB48CB /* IMG_1422.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1422.PNG; sourceTree = "<group>"; };
 		24748DD12235927100CB48CB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2479AF9B222335EC009F0BDA /* testFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,8 +33,9 @@
 		2479AFA5222335ED009F0BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2479AFA8222335ED009F0BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2479AFAA222335ED009F0BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2480CC932242854E0078149B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2480CC95224296FD0078149B /* viseci.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viseci.jpg; sourceTree = "<group>"; };
 		24D1D712222350F600B6A75B /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
-		24D1D71622242BB900B6A75B /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
 		24E645D5222689EF0057E42F /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
 		7C486D43A0A5F8ECFDAD6F4F /* Pods-testFetch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFetch.release.xcconfig"; path = "Pods/Target Support Files/Pods-testFetch/Pods-testFetch.release.xcconfig"; sourceTree = "<group>"; };
 		B03E8A65C8B6C957181224CF /* Pods_testFetch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testFetch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +57,7 @@
 		2467D62022369AC6004E1D10 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				2480CC95224296FD0078149B /* viseci.jpg */,
 				24748DCF2235905C00CB48CB /* IMG_1422.PNG */,
 			);
 			path = images;
@@ -96,9 +97,8 @@
 				2479AF9E222335EC009F0BDA /* AppDelegate.swift */,
 				24D1D712222350F600B6A75B /* schema.json */,
 				244DD6882223381D00873CDC /* API.swift */,
-				24748DC922358E8900CB48CB /* AllTableViewController.swift */,
+				2480CC932242854E0078149B /* TableViewController.swift */,
 				24748DD12235927100CB48CB /* TableViewCell.swift */,
-				24D1D71622242BB900B6A75B /* Apollo.swift */,
 				2479AFA2222335EC009F0BDA /* Main.storyboard */,
 				2479AFA5222335ED009F0BDA /* Assets.xcassets */,
 				2479AFA7222335ED009F0BDA /* LaunchScreen.storyboard */,
@@ -186,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2480CC96224296FD0078149B /* viseci.jpg in Resources */,
 				244DD68B2223383900873CDC /* ViewController.graphql in Resources */,
 				24D1D713222350F600B6A75B /* schema.json in Resources */,
 				2479AFA9222335ED009F0BDA /* LaunchScreen.storyboard in Resources */,
@@ -260,11 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				244DD6892223381D00873CDC /* API.swift in Sources */,
+				2480CC942242854E0078149B /* TableViewController.swift in Sources */,
 				24748DD22235927100CB48CB /* TableViewCell.swift in Sources */,
 				24E645D6222689EF0057E42F /* JsonData.swift in Sources */,
 				2479AF9F222335EC009F0BDA /* AppDelegate.swift in Sources */,
-				24D1D71722242BB900B6A75B /* Apollo.swift in Sources */,
-				24748DCA22358E8900CB48CB /* AllTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
